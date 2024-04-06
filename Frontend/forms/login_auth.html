@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login & Signup</title>
+    <link rel="stylesheet" href="Frontend/css/login_auth.css.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="form-wrapper">
+            <ul class="nav-tabs">
+                <li class="active">Login</li>
+                <li>Signup</li>
+            </ul>
+            <div class="form-container">
+                <form action="" id="login-form">
+                    <label for="username">Username:</label>
+                    <input type="text" id="username" name="username" required>
+                    <label for="password">Password:</label>
+                    <input type="password" id="password" name="password" required>
+                    <button type="submit">Login</button>
+                </form>
+                <form action="" id="signup-form" style="display: none;">
+                    <label for="signup-username">Username:</label>
+                    <input type="text" id="signup-username" name="username" required>
+                    <label for="signup-password">Password:</label>
+                    <input type="password" id="signup-password" name="password" required>
+                    <button type="submit">Signup</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <script src="Frontend/assets/js/login_auth.js"></script>
+</body>
+
+</html>
