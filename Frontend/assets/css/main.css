@@ -40,6 +40,12 @@
   --nav-dropdown-background-color: #ffffff;
 }
 
+.imagine{
+
+  width: 100px;
+  height:90px;
+}
+
 /* Smooth scroll */
 :root {
   scroll-behavior: smooth;
@@ -169,6 +175,7 @@ section {
   --nav-color: rgba(255, 255, 255, 0.515);
   --nav-hover-color: #ffffff;
 }
+
 
 /* Home Page Custom Header on page scroll
 ------------------------------*/
@@ -415,6 +422,10 @@ section {
     transform: rotate(180deg);
   }
 
+  #contact{
+
+    background-color: #a6a5a5;
+  }
   .navmenu .dropdown ul,
   .navmenu .megamenu ul {
     position: static;
